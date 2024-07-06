@@ -1,3 +1,3 @@
-This is an attempt to optimise the existing PSO algorithm by proposing 4 modifications.The proposed modifications are working good enough for the sample testcases.Testing the benchmark testcases is in progress..
+-This is an attempt to optimise the existing PSO algorithm by proposing 4 modifications.The proposed modifications are working good enough for the sample testcases.Testing the benchmark testcases is in progress..
 
-Tools & technologies used: C++,Optimisation
+-Tools & technologies used: C++,Optimisation
