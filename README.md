@@ -2,7 +2,7 @@
 
 ---
 
-## 🧠 What is FastPSO?
+## What is FastPSO?
 
 **FastPSO** is a modified version of the classic Particle Swarm Optimization (PSO) algorithm, created as part of an academic exploration during the 2nd year of B.Tech. It focuses on accelerating convergence — making the search “fast enough” while still keeping solutions “good enough.”
 
@@ -10,14 +10,14 @@ This project introduces **four simple but impactful modifications** to the origi
 
 ---
 
-## 🎯 Motivation
+## Motivation
 
 Heuristics and metaheuristics aim for “good enough solutions in a fast enough manner.”  
 FastPSO focuses on improving the **fast** part without losing the **good**.
 
 ---
 
-## 🔍 Key Modifications Over Standard PSO
+## Key Modifications Over Standard PSO
 
 1. **Uniform Initialization of Positions**
    - Divides the search space into `n` blocks and initializes one particle per block.
@@ -34,7 +34,7 @@ FastPSO focuses on improving the **fast** part without losing the **good**.
 
 ---
 
-## 🧪 Test Function (1D Example)
+## Test Function (1D Example)
 
 The algorithm has been initially tested on the following function:
 
@@ -44,7 +44,7 @@ f(x) = -x^2 + 10x + 20 \quad \text{where } x \in [-10, 10]
 
 ---
 
-## 📊 Results
+## Results
 
 | Attempt | FastPSO Iterations | x (FastPSO) | y (FastPSO) | Standard PSO Iterations | x (PSO)    | y (PSO)     |
 |---------|--------------------|-------------|-------------|--------------------------|------------|-------------|
@@ -59,24 +59,24 @@ f(x) = -x^2 + 10x + 20 \quad \text{where } x \in [-10, 10]
 | 9       | 1                  | 5.00000     | 45.0000     | 3                        | 4.95502    | 44.9980     |
 | 10      | 6                  | 5.02383     | 44.9994     | 3                        | 4.98970    | 44.9999     |
 
-🟢 **FastPSO Best Case:** 1 iteration  
-🔵 **PSO Best Case:** 2 iterations  
-📈 **FastPSO Average:** ~5.2 iterations  
-📉 **PSO Average:** ~6.3 iterations  
+**FastPSO Best Case:** 1 iteration  
+**PSO Best Case:** 2 iterations  
+**FastPSO Average:** ~5.2 iterations  
+**PSO Average:** ~6.3 iterations  
 
 The following graph compares the number of iterations required for convergence between FastPSO and standard PSO across 10 runs.
 
 ![Convergence Comparison](images/convergence_comparisons.png)
 
-⚠️ Note: This is an early prototype and not yet benchmarked on large-scale functions.
+Note: This is an early prototype and not yet benchmarked on large-scale functions.
 
-## 🔭 Future Work
+## Future Work
 
 - Benchmark FastPSO on standard test functions (Rastrigin, Ackley, Rosenbrock, etc.)
 - Extend to multi-dimensional search spaces.
 - Analyze convergence trends over time.
 
-## 🤝 Contributing
+## Contributing
 
 This project is a learning and experimentation initiative so if you find this interesting or have ideas to improve FastPSO, **feel free to contribute or collaborate**!
 
@@ -88,16 +88,16 @@ Whether it's:
 
 ...your input is welcome!
 
-### 📫 Contact
+### Contact
 
 Feel free to reach out to me via:
 
-- 📧 Email: bharadwajnitw@gmail.com  
-- 🌐 GitHub: [@Bharadwaj721](https://github.com/Bharadwaj721)
+- Email: bharadwajnitw@gmail.com  
+- GitHub: [@Bharadwaj721](https://github.com/Bharadwaj721)
 
 I'd be happy to discuss, collaborate, or just hear your thoughts!
 
-## 📄 License
+## License
 
 This project is licensed under the **MIT License** — see the `LICENSE` file for full details.
 
