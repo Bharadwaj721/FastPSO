@@ -1,6 +1,6 @@
 # FastPSO: A Modified Particle Swarm Optimization Algorithm
 
-
+---
 
 ## 🧠 What is FastPSO?
 
