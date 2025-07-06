@@ -62,7 +62,7 @@ f(x) = -x^2 + 10x + 20 \quad \text{where } x \in [-10, 10]
 🟢 **FastPSO Best Case:** 1 iteration  
 🔵 **PSO Best Case:** 2 iterations  
 📈 **FastPSO Average:** ~5.2 iterations  
-📉 **PSO Average:** ~5.2 iterations  
+📉 **PSO Average:** ~6.3 iterations  
 
 The following graph compares the number of iterations required for convergence between FastPSO and standard PSO across 10 runs.
 
