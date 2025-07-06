@@ -12,8 +12,8 @@ This project introduces **four simple but impactful modifications** to the origi
 
 ## 🎯 Motivation
 
-> Heuristics and metaheuristics aim for “good enough solutions in a fast enough manner.”  
-> FastPSO focuses on improving the **fast** part without losing the **good**.
+Heuristics and metaheuristics aim for “good enough solutions in a fast enough manner.”  
+FastPSO focuses on improving the **fast** part without losing the **good**.
 
 ---
 
@@ -44,11 +44,30 @@ f(x) = -x^2 + 10x + 20 \quad \text{where } x \in [-10, 10]
 
 ---
 
-## 📈 Results (Initial Observations)
+## 📊 Results
 
-- Faster convergence observed in early iterations compared to standard PSO.
-- Uniform initialization led to better exploration in early phases.
-- Forced movement to gbest improved exploitation near the optimum.
+The following graph compares the number of iterations required for convergence between FastPSO and standard PSO across 10 runs.
+
+![Convergence Comparison](images/convergence_comparison.png)
+
+| Attempt | FastPSO Iterations | Standard PSO Iterations |
+|---------|--------------------|--------------------------|
+| 1       | 1                  | 2                        |
+| 2       | 2                  | 3                        |
+| 3       | 3                  | 11                       |
+| 4       | 15                 | 2                        |
+| 5       | 15                 | 12                       |
+| 6       | 1                  | 6                        |
+| 7       | 15                 | 4                        |
+| 8       | 14                 | 6                        |
+| 9       | 1                  | 3                        |
+| 10      | 6                  | 3                        |
+
+🟢 **FastPSO Best Case:** 1 iteration  
+🔵 **PSO Best Case:** 2 iterations  
+📈 **FastPSO Average:** ~5.2 iterations  
+📉 **PSO Average:** ~5.2 iterations  
+
 
 > ⚠️ Note: This is an early prototype and not yet benchmarked on large-scale functions.
 
