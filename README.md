@@ -1,12 +1,10 @@
 # FastPSO: A Modified Particle Swarm Optimization Algorithm
 
-> ⚡ A simple yet effective enhancement to standard PSO, designed to improve convergence speed without compromising solution quality.
-
 ---
 
 ## 🧠 What is FastPSO?
 
-**FastPSO** is a modified version of the classic Particle Swarm Optimization (PSO) algorithm, created as part of an academic exploration. It focuses on accelerating convergence — making the search “fast enough” while still keeping solutions “good enough.”
+**FastPSO** is a modified version of the classic Particle Swarm Optimization (PSO) algorithm, created as part of an academic exploration during the 2nd year of B.Tech. It focuses on accelerating convergence — making the search “fast enough” while still keeping solutions “good enough.”
 
 This project introduces **four simple but impactful modifications** to the original PSO, aimed at improving search efficiency in low to mid-dimensional spaces.
 
@@ -42,6 +40,9 @@ The algorithm has been initially tested on the following function:
 
 ```math
 f(x) = -x^2 + 10x + 20 \quad \text{where } x \in [-10, 10]
+```
+
+---
 
 ## 📈 Results (Initial Observations)
 
@@ -78,4 +79,11 @@ Feel free to reach out to me via:
 - 🌐 GitHub: [@Bharadwaj721](https://github.com/Bharadwaj721)
 
 I'd be happy to discuss, collaborate, or just hear your thoughts!
+
+## 📄 License
+
+This project is licensed under the **MIT License** — see the `LICENSE` file for full details.
+
+
+
 
