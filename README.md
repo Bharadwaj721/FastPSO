@@ -48,7 +48,7 @@ f(x) = -x^2 + 10x + 20 \quad \text{where } x \in [-10, 10]
 
 The following graph compares the number of iterations required for convergence between FastPSO and standard PSO across 10 runs.
 
-![Convergence Comparison](images/convergence_comparison.png)
+![Convergence Comparison](images/convergence_comparisons.png)
 
 | Attempt | FastPSO Iterations | Standard PSO Iterations |
 |---------|--------------------|--------------------------|
