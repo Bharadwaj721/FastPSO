@@ -1,6 +1,6 @@
 # FastPSO: A Modified Particle Swarm Optimization Algorithm
 
----
+
 
 ## 🧠 What is FastPSO?
 
@@ -46,30 +46,29 @@ f(x) = -x^2 + 10x + 20 \quad \text{where } x \in [-10, 10]
 
 ## 📊 Results
 
-The following graph compares the number of iterations required for convergence between FastPSO and standard PSO across 10 runs.
-
-![Convergence Comparison](images/convergence_comparisons.png)
-
-| Attempt | FastPSO Iterations | Standard PSO Iterations |
-|---------|--------------------|--------------------------|
-| 1       | 1                  | 2                        |
-| 2       | 2                  | 3                        |
-| 3       | 3                  | 11                       |
-| 4       | 15                 | 2                        |
-| 5       | 15                 | 12                       |
-| 6       | 1                  | 6                        |
-| 7       | 15                 | 4                        |
-| 8       | 14                 | 6                        |
-| 9       | 1                  | 3                        |
-| 10      | 6                  | 3                        |
+| Attempt | FastPSO Iterations | x (FastPSO) | y (FastPSO) | Standard PSO Iterations | x (PSO)    | y (PSO)     |
+|---------|--------------------|-------------|-------------|--------------------------|------------|-------------|
+| 1       | 1                  | 5.00000     | 45.0000     | 2                        | 5.01834    | 44.9997     |
+| 2       | 2                  | 4.98398     | 44.9997     | 3                        | 5.02813    | 44.9992     |
+| 3       | 3                  | 4.99617     | 45.0000     | 11                       | 5.03322    | 44.9989     |
+| 4       | 15                 | 4.99406     | 45.0000     | 2                        | 5.01316    | 44.9998     |
+| 5       | 15                 | 4.95687     | 44.9981     | 12                       | 5.04163    | 44.9983     |
+| 6       | 1                  | 5.00000     | 45.0000     | 6                        | 5.00898    | 44.9999     |
+| 7       | 15                 | 5.03181     | 44.9990     | 4                        | 5.02634    | 44.9993     |
+| 8       | 14                 | 4.99055     | 44.9999     | 6                        | 4.95814    | 44.9982     |
+| 9       | 1                  | 5.00000     | 45.0000     | 3                        | 4.95502    | 44.9980     |
+| 10      | 6                  | 5.02383     | 44.9994     | 3                        | 4.98970    | 44.9999     |
 
 🟢 **FastPSO Best Case:** 1 iteration  
 🔵 **PSO Best Case:** 2 iterations  
 📈 **FastPSO Average:** ~5.2 iterations  
 📉 **PSO Average:** ~5.2 iterations  
 
+The following graph compares the number of iterations required for convergence between FastPSO and standard PSO across 10 runs.
 
-> ⚠️ Note: This is an early prototype and not yet benchmarked on large-scale functions.
+![Convergence Comparison](images/convergence_comparisons.png)
+
+⚠️ Note: This is an early prototype and not yet benchmarked on large-scale functions.
 
 ## 🔭 Future Work
 
