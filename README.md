@@ -78,8 +78,7 @@ The following graph compares the number of iterations required for convergence b
 
 ## 🤝 Contributing
 
-This project is a learning and experimentation initiative started during my B.Tech.  
-If you find this interesting or have ideas to improve FastPSO, **feel free to contribute or collaborate**!
+This project is a learning and experimentation initiative so if you find this interesting or have ideas to improve FastPSO, **feel free to contribute or collaborate**!
 
 Whether it's:
 - Testing on new benchmark functions
