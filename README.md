@@ -92,7 +92,7 @@ Whether it's:
 
 Feel free to reach out to me via:
 
-- Email: bharadwajnitw@gmail.com  
+- Email: bharadwaj9632@gmail.com  
 - GitHub: [@Bharadwaj721](https://github.com/Bharadwaj721)
 
 I'd be happy to discuss, collaborate, or just hear your thoughts!
